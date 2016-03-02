@@ -24,7 +24,7 @@ public class AddServerImpl extends UnicastRemoteObject implements AddServerIntf
       //    System.getSecurityManager();
       // }
       // SECURITY ISSU============================= 
-
+      System.out.println("Constructing server implementation...");
       try
       {
          AddServerImpl asi = new AddServerImpl();
